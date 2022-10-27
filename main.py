@@ -40,3 +40,20 @@ print(f"Sua idade é {idade}")
 dobro = idade * 2 
 print("O dobro da idade informada é {}".format(dobro))
 
+#estrutura condicional - o famoso "se" (if)
+#Se a pessoa for maior de idade, mostre "você é maior de idade, legal!"
+if idade >= 18:
+  print ("Você é maior de idade, legal!")
+  
+else:
+  print("Você é xóven ainda, xóven ainda...")
+
+
+print("vai ser executada de qualquer jeito")
+
+#E se quisessem perguntar se o gênero (M = Masculino e F = Feminino )
+#Mostre (... e você também precisa/precisou prestar o serviço militar)
+genero = input("Informe o genero M = Masculino, F = feminino e O = Outros: ")
+if idade >= 18 and genero == "M" :
+  print ("...e você também precisa/precisou prestar o serviço militar obrigatório")
+
