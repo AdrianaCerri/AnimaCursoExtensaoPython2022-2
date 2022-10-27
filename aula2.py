@@ -57,3 +57,5 @@ genero = input("Informe o genero M = Masculino, F = feminino e O = Outros: ")
 if idade >= 18 and genero == "M" :
   print ("...e você também precisa/precisou prestar o serviço militar obrigatório")
 
+
+
